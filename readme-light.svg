@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="210" viewBox="0 0 800 210">
+  <rect width="800" height="210" rx="28" fill="#ffffff"/>
+
+  <!-- name -->
+  <text x="40" y="86" font-family="Georgia, 'Times New Roman', serif" font-size="46" fill="#1f2328">
+    <tspan font-style="italic" fill="#6e7781">hay, </tspan><tspan font-weight="bold">i'm Ashutosh</tspan><tspan fill="#2f6feb">|<animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></tspan>
+  </text>
+
+  <!-- hand-drawn squiggle under Ashutosh -->
+  <path d="M232 102 C 252 95, 272 109, 292 102 S 332 95, 352 102 S 392 109, 412 102 S 436 97, 444 101"
+        stroke="#2f6feb" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- looping arrow from squiggle to tagline -->
+  <path d="M448 104 C 470 116, 492 112, 494 92" stroke="#2f6feb" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M488 96 L 494 90 L 499 97" stroke="#2f6feb" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- tagline -->
+  <text x="508" y="66" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#57606a">i turn "what if" into</text>
+  <text x="508" y="90" font-family="Georgia, 'Times New Roman', serif" font-size="19" font-style="italic" fill="#57606a">things you can use.</text>
+
+  <!-- tiny orange spark accent -->
+  <path d="M770 40 C 771 45, 773 47, 778 48 C 773 49, 771 51, 770 56 C 769 51, 767 49, 762 48 C 767 47, 769 45, 770 40 Z" fill="#e8590c">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- roles row -->
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#57606a">
+    <!-- full-stack: terminal -->
+    <g transform="translate(40,144)" stroke="#57606a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="2" y="3" width="18" height="15" rx="2.5"/>
+      <path d="M6 8 l4 3 -4 3"/>
+      <line x1="12" y1="14.5" x2="16" y2="14.5"/>
+    </g>
+    <text x="70" y="161">full-stack</text>
+
+    <!-- GTM: rising curve -->
+    <g transform="translate(180,144)" stroke="#57606a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 3 v16 h16"/>
+      <path d="M6 14 C 9 10, 11 12, 14 8 S 17 6, 19 5"/>
+      <path d="M16 5 h3 v3"/>
+    </g>
+    <text x="210" y="161">GTM automation</text>
+
+    <!-- system design: layers -->
+    <g transform="translate(360,144)" stroke="#57606a" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M11 2 l8 4.5 -8 4.5 -8 -4.5 z"/>
+      <path d="M4 12 l7 4 7 -4"/>
+      <path d="M4 16 l7 4 7 -4"/>
+    </g>
+    <text x="390" y="161">system design</text>
+
+    <!-- gen AI: sparkle -->
+    <g transform="translate(540,144)" fill="#57606a">
+      <path d="M11 2 C 12 7.5, 14.5 10, 20 11 C 14.5 12, 12 14.5, 11 20 C 10 14.5, 7.5 12, 2 11 C 7.5 10, 10 7.5, 11 2 Z">
+        <animate attributeName="opacity" values="1;0.35;1" dur="2.8s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <text x="570" y="161">gen AI</text>
+  </g>
+</svg>
